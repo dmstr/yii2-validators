@@ -1,0 +1,21 @@
+{
+    "name": "dmstr/yii2-validators",
+    "description": "Yii2 Framework validators",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Elias Luhr",
+            "email": "e.luhr@herzogkommunikation.de"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dmstr\\validators\\": "src"
+        }
+    }
+}
